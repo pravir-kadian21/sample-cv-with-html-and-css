@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    text-align:center;
+    font-family: verdana;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color:#66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size:6rem;/*100% == 16px && 1em = 16px*/
+    margin:50px auto 0 auto;
+    line-height: 2;
+}
+h2{
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+    font-weight: normal;
+}
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color:#11999E;
+}
+
+hr{
+    border-style:dotted none none none;
+    width:5%;
+    border-width:5px;
+    border-color:#EAF6F6;
+}
+
+.top-container{ 
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top:100px;
+    
+}
+
+.pro{
+    text-decoration: underline;
+}
+.cloud-1{
+    position: absolute;
+    right:300px;
+    top:70px;
+}
+.cloud-2{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+.profile{
+    width:30%;
+    margin:80px auto 80px auto;
+    line-height: 2;
+}
+.profile-img{
+    height:200px;
+    border-radius: 100%;
+}
+.skills{
+    margin-top:80px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills-image{
+    width:25%;
+}
+.chillies{
+    float:left;
+    margin-right: 30px;
+}
+.computer{
+    margin-left:30px;
+    float:right;
+    border-radius: 100%;
+}
+.contact-me{
+    width:30%;
+    margin:80px auto 0 auto;
+    line-height: 2;
+}
+.contact-me-para{
+    margin-bottom: 60px;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66bfbf;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .btn:hover {
+    background: #66bfbf;
+    text-decoration: none;
+  }
+.bottom-container{
+    margin-top:80px;
+    padding:50px 0 10px 0;
+    background-color: #66BFBF;
+    line-height: 2;
+}
+.footer-link{
+    margin-right: 40px;
+    text-decoration: none;
+    color:#11999E;
+}
+.copyright{
+    color:#EAF6F6;
+}
